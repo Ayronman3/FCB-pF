@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@600&family=Roboto&display=swap');
+
+/*)
+totestthelink
+target {
+	property: balue;
+}
+*/
+/*body {
+	background-color: red;
+}
+*/
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/* Base Structure
+target {
+	properties
+}*/
+
+h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 72px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+/* apply to all elements*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
