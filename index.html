@@ -11,13 +11,55 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
+	<!-- Nav bar BootStrap -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-	<div class="container">
-		<section id="landing">
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mx-auto">
+	      <li class="nav-item">
+	      	<!-- linking to #landing -->
+	        <a class="nav-link" href="#landing">Home </a>
+	      </li>
+	      <li class="nav-item">
+	      	<!-- linking to #gallery -->
+	        <a class="nav-link" href="#gallery">Gallery</a>
+	      </li>
+	      <!-- <li class="nav-item"> 
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled">Disabled</a>
+	      </li>-->
+	    </ul>
+
+	    <!-- <form class="form-inline my-2 my-lg-0"> 
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>-->
+	  </div>
+	</nav>
+	<!-- Container fulid to maximize space -->
+	<div class="container-fluid">
+		<section id="landing" class="jumbotron text-center mt-3">
 			<h1>Sigmund Jude Guevarra</h1>
 			<h2>Software Engineer</h2>
 			<p>Hello, I'm Sigmund and I love Programming!</p>
-			<img src="./images/Pp2.png">
+			<img src="./images/Pp2.png" class="img-fluid">
 		</section>
 		<section id="gallery">
 			<div class="tools"><h2>Languages I Speak</h2>
