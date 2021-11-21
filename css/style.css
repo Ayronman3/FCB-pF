@@ -3,7 +3,7 @@
 /*)
 totestthelink
 target {
-	property: balue;
+	property: blue;
 }
 */
 /*body {
@@ -27,6 +27,7 @@ h1 {
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
+	color: #007bff; /*bule*/
 }
 /* apply to all elements*/
 * {
@@ -37,4 +38,29 @@ img {
 	width: 250px;
 	/* browser will automatically compute or estimate the height*/
 	border-radius: 50%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#landing,
+#gallery {
+	height: 80vh;
+	/* center the content vertically using flexbox */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/*to indicate class*/
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2; /*light grey*/
+	margin: 25px;
+	width: 75%;
 }
